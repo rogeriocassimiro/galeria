@@ -1,1 +1,19 @@
-/* Empty. Add your own CSS if you like */
+/* personal css */
+
+.content-home {
+    background: lightgoldenrodyellow
+}
+
+
+/* override default .css */
+
+.card {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.card,
+.list-insert {
+    margin: 5px 10px !important;
+    border-radius: 25px;
+}

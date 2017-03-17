@@ -1,9 +1,16 @@
 <ion-view title="{{titulo}}" hide-back-button="true">
 
-    <ion-content>
+    <ion-content class="content-home">
 
-        <h1>Home...</h1>
-        <p>lorem ipsun</p>
+        <div>
+            <div class="list card" ng-repeat="item in listagem">
+                <div class="item item-avatar " ng-click="abrirItem(item);">
+                    <img ng-src="{{item.path}}">
+                    <h2>{{item.id}} - {{item.texto}}</h2>
+                    <p>{{item.descricao}}</p>
+                </div>
+            </div>
+        </div>
 
     </ion-content>
 

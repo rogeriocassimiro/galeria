@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <widget id="com.ionicframework.galeria735539" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>galeria</name>
+  <name>Galeria</name>
   <description>
-        An Ionic Framework and Cordova project.
+        Projeto Ionic V1 para demonstração de galeria com informações textuais.
     </description>
-  <author email="you@example.com" href="http://example.com/">
-      Your Name Here
+  <author email="rogerioinhumas@gmail.com" href="https://www.linkedin.com/in/rogeriocassimiro/">
+      Rogério Cassimiro de Souza
     </author>
   <content src="index.html"/>
   <access origin="*"/>
