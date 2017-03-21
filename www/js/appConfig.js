@@ -1,6 +1,6 @@
 'use strict';
 
-galeriaApp.config(function($ionicConfigProvider, $stateProvider, $urlRouterProvider) {
+catalogoApp.config(function($ionicConfigProvider, $stateProvider, $urlRouterProvider) {
 
     //$ionicConfigProvider.backButton.previousTitleText(false).text('').icon('ion-chevron-left');
 
@@ -30,6 +30,6 @@ galeriaApp.config(function($ionicConfigProvider, $stateProvider, $urlRouterProvi
         cache: false
     })
 
-    $urlRouterProvider.otherwise('/home');
+    $urlRouterProvider.otherwise('/login');
 
 });

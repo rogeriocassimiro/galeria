@@ -1,0 +1,36 @@
+.error-container {
+    margin: 3px 0;
+}
+
+.error-container:last-child {
+    margin: 3px 0 0;
+}
+
+.error {
+    padding: 2px 0px 7px 14px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 13px;
+    color: #555;
+    vertical-align: middle;
+}
+
+.error i {
+    font-size: 11px;
+    color: #B83E2C;
+    vertical-align: middle;
+}
+
+.last-error-container>.error {
+    padding: 2px 14px 0;
+}
+
+.has-errors {
+    border-bottom: 2px solid #B83E2C;
+}
+
+
+/*
+.no-errors {
+  border-bottom: 3px solid #77d3ff;
+}
+*/

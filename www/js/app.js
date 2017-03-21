@@ -1,8 +1,9 @@
 'use strict';
 
 var dependencias = [
-  'ionic',
-  'ngCordova'
+    'ionic',
+    'ngCordova',
+    'ngMessages'
 ];
 
-var galeriaApp = angular.module('galeria', dependencias);
+var catalogoApp = angular.module('catalogo', dependencias);

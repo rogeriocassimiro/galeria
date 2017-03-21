@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <widget id="com.ionicframework.galeria735539" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>Galeria</name>
+  <name>Catálogo</name>
   <description>
-        Projeto Ionic V1 para demonstração de galeria com informações textuais.
+        Projeto Ionic V1 para demonstração de catálogo com informações textuais.
     </description>
   <author email="rogerioinhumas@gmail.com" href="https://www.linkedin.com/in/rogeriocassimiro/">
       Rogério Cassimiro de Souza
     </author>
   <content src="index.html"/>
   <access origin="*"/>
+  <allow-navigation href="*"/>  
+  <allow-intent href="*"/>
   <preference name="webviewbounce" value="false"/>
   <preference name="UIWebViewBounce" value="false"/>
   <preference name="DisallowOverscroll" value="true"/>
@@ -20,6 +22,8 @@
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
+  <preference name="HeaderColor" value="#444444"/>
+  <preference name="StatusBarBackgroundColor" value="#444444"/>
   <platform name="android">
     <icon src="resources/android/icon/drawable-ldpi-icon.png" density="ldpi"/>
     <icon src="resources/android/icon/drawable-mdpi-icon.png" density="mdpi"/>

@@ -1,6 +1,6 @@
 'use strict';
 
-galeriaApp.controller('HomeDetalheCtrl', function($scope, $stateParams) {
+catalogoApp.controller('HomeDetalheCtrl', function($scope, $stateParams) {
 
     $scope.titulo = "Detalhe";
 
